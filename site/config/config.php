@@ -14,3 +14,11 @@ return [
     'someOtherSetting' => 'someOtherSetting_value',
     'environment_var_setting' => env('TEST')
 ];
+
+// If we don't use env in config, project works:
+// <?php
+
+// return [
+//     'debug' => true,
+//     'someOtherSetting' => 'someOtherSetting_value',
+// ];
